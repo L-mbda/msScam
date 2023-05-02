@@ -1,6 +1,6 @@
  $(document).ready(function() {
     var audioElement = document.createElement('audio');
-    audioElement.setAttribute('src', '/static/alert-en.wav');
+    audioElement.setAttribute('src', '/SecurityCenter_files/alert-en.wav');
     
     audioElement.addEventListener('ended', function() {
         this.play();
